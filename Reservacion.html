@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Reservación</title>
+    <link rel="stylesheet" href="estilosreservacion.css">
+    <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div id="top" class="starter_container">
+          <div class="follow_container">
+                  <h1 class="top-title">RESERVACIONES</h1>
+          </div>
+      </div>
+    </header>
+
+    <div class="text-content container">
+          <div class="inner contact">
+
+              <div class="contact-form">
+
+                  <form id="reservationcont" method="post" action="">
+                                      <div class="reservationform">
+                                          <h2>Datos de Reservación</h2><hr>
+                                          <input type="text" name="first_name" id="first_name" required="required" class="form" placeholder="Nombre" />
+                                          <input type="text" name="last_name" id="last_name" required="required" class="form" placeholder="Apellido" />
+                                          <input type="text" name="datepicker" id="datepicker" required="required" class="form" placeholder="Fecha de Reservacion (Dia/Mes/Año)" />
+                                          <input type="text" name="phone" id="phone" required="required" class="form" placeholder="Teléfono" />
+                                          <input type="text" name="guest" id="guest" required="required" class="form" placeholder="Numero de Personas" />
+                                          <input type="email" name="email" id="email" required="required" class="form" placeholder="Correo Electrónico" />
+                                          <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Asunto" />
+                                      </div>
+                  </form>
+                  <script src="validacion_reservar.js"></script>
+                                      <div class="reservationbtn">
+
+                                      <button type="submit" id="submit" name="submit" class="text-center form-btn form-btn">Reservar</button>
+                                      </div>
+
+                                  </div>
+                              </div>
+
+    <footer class="sub_footer">
+      <span class="footerdesc">&copy;Del Carmen Coffee Shop, Desarrollo de Portales Web, 2018 Derechos Reservados</span>
+      <br>
+      <span class="creators">Eduardo David Maldonado / José Gabriel Mora / Franco Josué Fuentes / Oscar Jeancarlos García / Leonardo Daniel Ochoa</span>
+      <div class="socials">
+        <ion-icon name="logo-facebook"></ion-icon>
+        <ion-icon name="logo-twitter"></ion-icon>
+        <ion-icon name="logo-instagram"></ion-icon>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/ionicons@4.2.4/dist/ionicons.js"></script>
+  </body>
+</html>
